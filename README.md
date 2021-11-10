@@ -1,1 +1,1 @@
-this is my first project !
+showing how language run by typing 'hello world' program
