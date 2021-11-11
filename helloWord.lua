@@ -15,7 +15,7 @@ function People:introduce ()
   print(string.format("my name: %s, my age: %d hello world", self.name, self.age))
 end
 
-mePeople = People:new(nil, "yangjc", 27, 166, 70)
+mePeople = People:new(nil, "yangjc", 27, 70, 166)
 mePeople:introduce()
 
 Student = People:new()
