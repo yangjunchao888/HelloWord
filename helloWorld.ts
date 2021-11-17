@@ -1,8 +1,13 @@
-class People { 
+interface IPeople { 
+   name: string
+   introduce():void
+} 
+
+class People implements IPeople { 
     name: string; 
-    age: number 
-	weight: number
-	height: number
+    age: number;
+	weight: number;
+	height: number;
     // 构造函数 
     constructor(name: string, age: number, weight: number, height: number) { 
         this.name = name
